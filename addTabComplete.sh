@@ -1,6 +1,7 @@
 #brew install zsh
 #brew install git bash-completion
-curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+#curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+tar -xvf git-completion.tar.gz ~/
 echo 'if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi' >> ~/.bash_profile
